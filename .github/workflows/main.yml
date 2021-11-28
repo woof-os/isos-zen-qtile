@@ -16,8 +16,8 @@ jobs:
 
       - name: Build ISO
         run: |
-          docker build --rm -t woof-os/archiso-builder:latest .
-          docker run --rm -v /tmp:/tmp --privileged woof-os/archiso-builder:latest
+          docker build --rm -t woof-os/isos-zen-qtile:latest .
+          docker run --rm -v /tmp:/tmp --privileged woof-os/isos-zen-qtile:latest
 
       - name: Upload ISO
         uses: djn24/add-asset-to-release@v1

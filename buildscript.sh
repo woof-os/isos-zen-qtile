@@ -4,7 +4,7 @@
 cd /root/
 
 #Clone the lhos repo
-git clone https://github.com/woof-os/iso-profile /root/iso-profile 
+git clone https://github.com/woof-os/iso-profile-qtile-zen /root/iso-profile 
 
 #chmod the script
 chmod +x /root/iso-profile/build.sh
